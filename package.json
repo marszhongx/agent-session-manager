@@ -1,0 +1,30 @@
+{
+  "name": "agent-session-manager",
+  "version": "1.0.0",
+  "private": true,
+  "engines": {
+    "node": ">=20.9"
+  },
+  "description": "在浏览器中分层读取、检索并安全清理本地 pi / omp 编码 Agent 会话",
+  "scripts": {
+    "dev": "next dev -H 127.0.0.1 -p 8787",
+    "build": "next build",
+    "start": "next start -H 127.0.0.1 -p 8787"
+  },
+  "dependencies": {
+    "diff": "^9.0.0",
+    "lucide-react": "^1.80.0",
+    "next": "16.4.6",
+    "react": "19.3.1",
+    "react-dom": "19.3.1",
+    "react-markdown": "^10.1.0",
+    "rehype-highlight": "^7.0.2",
+    "remark-gfm": "^4.0.1"
+  },
+  "devDependencies": {
+    "@types/node": "^24.10.0",
+    "@types/react": "^19.2.0",
+    "@types/react-dom": "^19.2.0",
+    "typescript": "^5.9.0"
+  }
+}
